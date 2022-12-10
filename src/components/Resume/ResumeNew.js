@@ -9,7 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "";
+  "https://raw.githubusercontent.com/rakibhasantusar/portfolios/e3a10cec2d994f9910f76a64077c2e6cb0ee338d/src/Assets/Rakibul_Hasan_MERN.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
