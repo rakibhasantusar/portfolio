@@ -19,8 +19,14 @@ function Particle() {
             opacity: 0.03,
           },
           move: {
-            direction: "right",
-            speed: 0.05,
+            direction: "top",
+            enable: true,
+            speed: 8,
+            random: true,
+            straight: true,
+            out_mode: "out",
+            bounce: false,
+            blink: true,
           },
           size: {
             value: 1,
@@ -47,7 +53,8 @@ function Particle() {
           },
         },
         retina_detect: true,
-      }}
+      }
+      }
     />
   );
 }

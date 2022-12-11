@@ -8,10 +8,12 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import Particle from "../Particle";
 
 function Home2() {
   return (
-    <Container fluid className="home-about-section" id="about">
+    <Container fluid className="" id="about">
+      <Particle />
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
@@ -60,11 +62,11 @@ function Home2() {
         </Row>
         <Row className="my-5 ">
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
-            <p>
+            {/* <h1>FIND ME ON</h1> */}
+            {/* <p>
               Feel free to <span className="purple">connect </span>with me
-            </p>
-            <ul className="home-about-social-links">
+            </p> */}
+            {/* <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
                   href="https://github.com/rakibhasantusar"
@@ -105,7 +107,7 @@ function Home2() {
                   <AiFillInstagram />
                 </a>
               </li>
-            </ul>
+            </ul> */}
           </Col>
         </Row>
       </Container>

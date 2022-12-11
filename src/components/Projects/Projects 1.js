@@ -6,19 +6,19 @@ import editor from "../../Assets/Projects/Watch-Bazar.png";
 import chatify from "../../Assets/Projects/Rakibul-arc.png";
 import bitsOfCode from "../../Assets/Projects/coursera.png";
 
-function Projects() {
+function Projects1() {
   return (
 
-    <Container fluid className="project-section" >
+    <Container fluid className="" >
       <Particle />
-      <Container style={{ marginBottom: "85px" }}>
+      <Container style={{ marginBottom: "-80px" }}>
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
         </h1>
-        <p style={{ color: "white" }}>
+        <p style={{ color: "white", marginBottom: "-50px" }}>
           Here are a few projects I've worked on recently.
         </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Row style={{ justifyContent: "center", }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
@@ -58,4 +58,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default Projects1;

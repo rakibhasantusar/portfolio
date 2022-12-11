@@ -2,8 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
+import Projects1 from "../Projects/Projects 1";
+import ContactForm from "./ContactForm";
 import Home2 from "./Home2";
 import Type from "./Type";
+
 
 function Home() {
   return (
@@ -42,6 +45,8 @@ function Home() {
         </Container>
       </Container>
       <Home2 />
+      <Projects1 />
+      <ContactForm />
     </section>
   );
 }
