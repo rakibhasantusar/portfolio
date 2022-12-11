@@ -13,7 +13,7 @@ const Blogs = () => {
                 height: '100vh',
             }}
         >
-            <h2 style={{ color: '#fff', }}> <Type1 /></h2>
+            <h2 > <Type1 /></h2>
 
             <Particle />
         </div>

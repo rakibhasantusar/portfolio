@@ -5,6 +5,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import emailjs from 'emailjs-com';
 import 'react-toastify/dist/ReactToastify.min.css';
 import "./form.css"
+import { Container } from 'react-bootstrap';
 
 const ContactForm = () => {
     const {
@@ -66,7 +67,7 @@ const ContactForm = () => {
     };
 
     return (
-        <div className='ContactForm mb-5 home-content'>
+        <div className='ContactForm container mb-5 home-content'>
             <div className='text-center'>
                 <h1 className="project-heading">
                     Contact <strong className="purple">Form </strong>
