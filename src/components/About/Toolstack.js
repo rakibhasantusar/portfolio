@@ -1,15 +1,16 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  SiLinux,
+  // SiLinux,
   SiVisualstudiocode,
-  SiPostman,
-  SiHeroku,
+  // SiPostman,
+  // SiHeroku,
   SiVercel,
   SiFirebase,
   SiNetlify,
-  SiMongodb,
-  SiApache,
+  SiGithub,
+  // SiMongodb,
+  // SiApache,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -34,7 +35,7 @@ function Toolstack() {
         <SiFirebase />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiApache />
+        <SiGithub />
       </Col>
     </Row>
   );

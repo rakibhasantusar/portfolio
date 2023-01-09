@@ -10,13 +10,13 @@ import { ImBlog } from "react-icons/im";
 import {
   AiFillStar,
   AiOutlineHome,
-  AiOutlineFundProjectionScreen,
+  // AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
-import Projects from "./Projects/Projects";
-import Projects1 from "./Projects/Projects 1";
+// import Projects from "./Projects/Projects";
+// import Projects1 from "./Projects/Projects 1";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);

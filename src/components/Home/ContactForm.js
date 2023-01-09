@@ -5,7 +5,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import emailjs from 'emailjs-com';
 import 'react-toastify/dist/ReactToastify.min.css';
 import "./form.css"
-import { Container } from 'react-bootstrap';
+// import { Container } from 'react-bootstrap';
 
 const ContactForm = () => {
     const {
@@ -45,6 +45,14 @@ const ContactForm = () => {
                 subject,
                 message
             };
+
+
+            emailjs.send('service_oj0vra1', 'template_ykcjz4x', templateParams, 'Sfa9_nArHDa9NvGKy')
+                .then(function (response) {
+                    console.log('SUCCESS!', response.status, response.text);
+                }, function (error) {
+                    console.log('FAILED...', error);
+                });
 
             // Use emailjs to email contact form data
 
